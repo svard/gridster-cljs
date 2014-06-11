@@ -28,7 +28,7 @@
   [grid-el el & [callback]]
   (let [$grid (get-api-object grid-el)
         $el ($ el)]
-    (.remve_widget $grid $el callback)))
+    (.remove_widget $grid $el callback)))
 
 (defn serialize
   [grid-el & [widgets]]
